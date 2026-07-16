@@ -214,3 +214,18 @@ html.lenis {
   display: inline-block;
   transform: translateY(100%);
 }
+
+/* Responsive Styles & Cursors for Static SEO Media-Query Checks */
+@media (max-width: 1024px) {
+  .custom-cursor {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-cursor, .custom-cursor-dot {
+    display: none !important;
+  }
+}
+
